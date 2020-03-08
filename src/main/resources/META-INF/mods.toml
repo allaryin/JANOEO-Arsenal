@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+[[mods]]
+modId="akuma_arsenal"
+version="${file.jarVersion}"
+displayName="Example Mod"
+authors="Akuma No Tsubasa Project"
+description='''
+'''
+[[dependencies.akuma_arsenal]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.akuma_arsenal]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.akuma_arsenal]]
+    modId="janoeo"
+    mandatory=true
+    versionRange="[3.1,)"
+    ordering="NONE"
+    side="BOTH"

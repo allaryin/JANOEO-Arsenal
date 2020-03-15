@@ -1,25 +1,26 @@
 modLoader="javafml"
 loaderVersion="[31,)"
 [[mods]]
-modId="akuma_arsenal"
+modId="janoeo_arsenal"
 version="${file.jarVersion}"
-displayName="Example Mod"
-authors="Akuma No Tsubasa Project"
+displayName="Just Another Nether/Overworld/End Ores - Arsenal"
+authors="AlasDiablo, lIotaMiu, Egame257 and Safyrus"
 description='''
+Just Another Nether/Overworld/End Ores - Arsenal by AlasDiablo, lIotaMiu, Egame257 and Safyrus
 '''
-[[dependencies.akuma_arsenal]]
+[[dependencies.janoeo_arsenal]]
     modId="forge"
     mandatory=true
-    versionRange="[31,)"
+    versionRange="[30,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.akuma_arsenal]]
+[[dependencies.janoeo_arsenal]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.15,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.akuma_arsenal]]
+[[dependencies.janoeo_arsenal]]
     modId="janoeo"
     mandatory=true
     versionRange="[3.1,)"

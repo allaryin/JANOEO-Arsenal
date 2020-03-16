@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "W W",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:brown_wool"
+    }
+  },
+  "result": {
+    "item": "janoeo_arsenal:brown_wool_leggings"
+  }
+}

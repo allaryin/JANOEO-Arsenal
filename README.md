@@ -4,8 +4,8 @@
 
 [![Downloads](http://cf.way2muchnoise.eu/full_janoeo-arsenal_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/janoeo-arsenal)
 [![Versions](http://cf.way2muchnoise.eu/versions/janoeo-arsenal.svg)](https://www.curseforge.com/minecraft/mc-mods/janoeo-arsenal/files)
-[![size](https://img.shields.io/github/repo-size/AlasDiablo/Akuma-Arsenal)](https://github.com/AlasDiablo/Akuma-Arsenal)
-[![license](https://img.shields.io/github/license/AlasDiablo/Akuma-Arsenal)](https://github.com/AlasDiablo/Akuma-Arsenal/blob/master/LICENSE)
+[![size](https://img.shields.io/github/repo-size/AlasDiablo/JANOEO-Arsenal)](https://github.com/AlasDiablo/JANOEO-Arsenal)
+[![license](https://img.shields.io/github/license/AlasDiablo/JANOEO-Arsenal)](https://github.com/AlasDiablo/JANOEO-Arsenal/blob/master/LICENSE)
 [![discord](https://img.shields.io/discord/630863620842061877)](https://discord.gg/KkzqnzA)
 
 ## What is this mod?
@@ -34,7 +34,7 @@ Yes you can, just remember to put the name of the mod in the description of your
 # Download:
 
 - [Curseforge](https://www.curseforge.com/minecraft/mc-mods/janoeo-arsenal)
-- [Planet Minecraft](#) soon™
+- [Planet Minecraft](https://www.planetminecraft.com/mod/1-15-janoeo-arsenal/)
 
 # Some screenshots:
 

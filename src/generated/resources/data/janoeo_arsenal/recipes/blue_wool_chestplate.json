@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "result": {
+    "item": "janoeo_arsenal:blue_wool_chestplate"
+  }
+}

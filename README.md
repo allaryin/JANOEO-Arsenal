@@ -1,7 +1,9 @@
 # Janoeo Arsenal
 
-<img src="./textures/logo.png" alt="AkumaCodeBlack" align=right width=128px />
+<img src="https://github.com/AlasDiablo/JANOEO-Arsenal/raw/master/textures/logo.png" alt="AkumaCodeBlack" align=right width=128px />
 
+[![Downloads](http://cf.way2muchnoise.eu/full_janoeo-arsenal_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/janoeo-arsenal)
+[![Versions](http://cf.way2muchnoise.eu/versions/janoeo-arsenal.svg)](https://www.curseforge.com/minecraft/mc-mods/janoeo-arsenal/files)
 [![size](https://img.shields.io/github/repo-size/AlasDiablo/Akuma-Arsenal)](https://github.com/AlasDiablo/Akuma-Arsenal)
 [![license](https://img.shields.io/github/license/AlasDiablo/Akuma-Arsenal)](https://github.com/AlasDiablo/Akuma-Arsenal/blob/master/LICENSE)
 [![discord](https://img.shields.io/discord/630863620842061877)](https://discord.gg/KkzqnzA)
@@ -31,10 +33,12 @@ Yes you can, just remember to put the name of the mod in the description of your
 
 # Download:
 
-- [Curseforge](#) soon™
+- [Curseforge](https://www.curseforge.com/minecraft/mc-mods/janoeo-arsenal)
 - [Planet Minecraft](#) soon™
 
 # Some screenshots:
 
-soon™
+
+![img1](https://raw.githubusercontent.com/AlasDiablo/JANOEO-Arsenal/master/textures/desc/2020-03-15_17.23.22.png)
+![img1](https://raw.githubusercontent.com/AlasDiablo/JANOEO-Arsenal/master/textures/desc/2020-03-15_17.25.35.png)
 

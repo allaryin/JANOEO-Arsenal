@@ -57,6 +57,27 @@ public class Recipes extends RecipeProvider {
                 new Pair<>(WoolsArmors.BROWN_WOOL_LEGGINGS, Arrays.asList("WWW", "W W", "W W")),
                 new Pair<>(WoolsArmors.BROWN_WOOL_BOOTS, Arrays.asList("W W", "W W"))
         ));
+        listOfArmor.put(new Pair<>("has_cyan_wool", Blocks.CYAN_WOOL), Arrays.asList(
+                new Pair<>(WoolsArmors.CYAN_WOOL_HELMET, Arrays.asList("WWW", "W W")),
+                new Pair<>(WoolsArmors.CYAN_WOOL_CHESTPLATE, Arrays.asList("W W", "WWW", "WWW")),
+                new Pair<>(WoolsArmors.CYAN_WOOL_LEGGINGS, Arrays.asList("WWW", "W W", "W W")),
+                new Pair<>(WoolsArmors.CYAN_WOOL_BOOTS, Arrays.asList("W W", "W W"))
+        ));
+        listOfArmor.put(new Pair<>("has_gray_wool", Blocks.GRAY_WOOL), Arrays.asList(
+                new Pair<>(WoolsArmors.GRAY_WOOL_HELMET, Arrays.asList("WWW", "W W")),
+                new Pair<>(WoolsArmors.GRAY_WOOL_CHESTPLATE, Arrays.asList("W W", "WWW", "WWW")),
+                new Pair<>(WoolsArmors.GRAY_WOOL_LEGGINGS, Arrays.asList("WWW", "W W", "W W")),
+                new Pair<>(WoolsArmors.GRAY_WOOL_BOOTS, Arrays.asList("W W", "W W"))
+        ));
+        listOfArmor.put(new Pair<>("has_green_wool", Blocks.GREEN_WOOL), Arrays.asList(
+                new Pair<>(WoolsArmors.GREEN_WOOL_HELMET, Arrays.asList("WWW", "W W")),
+                new Pair<>(WoolsArmors.GREEN_WOOL_CHESTPLATE, Arrays.asList("W W", "WWW", "WWW")),
+                new Pair<>(WoolsArmors.GREEN_WOOL_LEGGINGS, Arrays.asList("WWW", "W W", "W W")),
+                new Pair<>(WoolsArmors.GREEN_WOOL_BOOTS, Arrays.asList("W W", "W W"))
+        ));
+
+
+
         listOfArmor.put(new Pair<>("has_red_wool", Blocks.RED_WOOL), Arrays.asList(
                 new Pair<>(WoolsArmors.RED_WOOL_HELMET, Arrays.asList("WWW", "W W")),
                 new Pair<>(WoolsArmors.RED_WOOL_CHESTPLATE, Arrays.asList("W W", "WWW", "WWW")),

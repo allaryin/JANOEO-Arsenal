@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:cyan_wool"
+    }
+  },
+  "result": {
+    "item": "janoeo_arsenal:cyan_wool_boots"
+  }
+}

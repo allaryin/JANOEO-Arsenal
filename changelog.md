@@ -1,4 +1,9 @@
-### 1.0
+### 1.2
++ add wool armor
+    + cyan
+    + gray
+    + green
+### 1.1
 + add wool armor
     + red
     + white

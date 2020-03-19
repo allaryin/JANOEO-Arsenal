@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "janoeo_arsenal:items/gray_wool_chestplate"
+  }
+}

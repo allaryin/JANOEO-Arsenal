@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "janoeo_arsenal:items/light_gray_wool_leggings"
+  }
+}

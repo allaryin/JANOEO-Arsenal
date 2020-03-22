@@ -40,5 +40,6 @@ Yes you can, just remember to put the name of the mod in the description of your
 
 
 ![img1](https://raw.githubusercontent.com/AlasDiablo/JANOEO-Arsenal/master/textures/desc/2020-03-15_17.23.22.png)
+![img1](https://raw.githubusercontent.com/AlasDiablo/JANOEO-Arsenal/master/textures/desc/2020-03-22_13.21.17.png)
 ![img1](https://raw.githubusercontent.com/AlasDiablo/JANOEO-Arsenal/master/textures/desc/2020-03-15_17.25.35.png)
 

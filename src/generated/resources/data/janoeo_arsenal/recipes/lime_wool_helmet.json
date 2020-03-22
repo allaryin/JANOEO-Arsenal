@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+    "item": "janoeo_arsenal:lime_wool_helmet"
+  }
+}

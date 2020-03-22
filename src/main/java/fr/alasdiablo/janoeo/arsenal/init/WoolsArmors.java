@@ -69,6 +69,36 @@ public class WoolsArmors {
     @ObjectHolder(Registries.MOD_ID + ":" + Registries.GREEN_WOOL_BOOTS)
     public static Item GREEN_WOOL_BOOTS;
 
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIGHT_BLUE_WOOL_HELMET)
+    public static Item LIGHT_BLUE_WOOL_HELMET;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIGHT_BLUE_WOOL_CHESTPLATE)
+    public static Item LIGHT_BLUE_WOOL_CHESTPLATE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIGHT_BLUE_WOOL_LEGGINGS)
+    public static Item LIGHT_BLUE_WOOL_LEGGINGS;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIGHT_BLUE_WOOL_BOOTS)
+    public static Item LIGHT_BLUE_WOOL_BOOTS;
+
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIGHT_GRAY_WOOL_HELMET)
+    public static Item LIGHT_GRAY_WOOL_HELMET;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIGHT_GRAY_WOOL_CHESTPLATE)
+    public static Item LIGHT_GRAY_WOOL_CHESTPLATE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIGHT_GRAY_WOOL_LEGGINGS)
+    public static Item LIGHT_GRAY_WOOL_LEGGINGS;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIGHT_GRAY_WOOL_BOOTS)
+    public static Item LIGHT_GRAY_WOOL_BOOTS;
+
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIME_WOOL_HELMET)
+    public static Item LIME_WOOL_HELMET;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIME_WOOL_CHESTPLATE)
+    public static Item LIME_WOOL_CHESTPLATE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIME_WOOL_LEGGINGS)
+    public static Item LIME_WOOL_LEGGINGS;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIME_WOOL_BOOTS)
+    public static Item LIME_WOOL_BOOTS;
+
+
+
+
 
 
 
@@ -134,6 +164,21 @@ public class WoolsArmors {
             e.register(new ArmorItem(ArmorsMaterials.GREEN_WOOL_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.GREEN_WOOL_CHESTPLATE));
             e.register(new ArmorItem(ArmorsMaterials.GREEN_WOOL_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.GREEN_WOOL_LEGGINGS));
             e.register(new ArmorItem(ArmorsMaterials.GREEN_WOOL_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.GREEN_WOOL_BOOTS));
+
+            e.register(new ArmorItem(ArmorsMaterials.LIGHT_BLUE_WOOL_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIGHT_BLUE_WOOL_HELMET));
+            e.register(new ArmorItem(ArmorsMaterials.LIGHT_BLUE_WOOL_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIGHT_BLUE_WOOL_CHESTPLATE));
+            e.register(new ArmorItem(ArmorsMaterials.LIGHT_BLUE_WOOL_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName( Registries.LIGHT_BLUE_WOOL_LEGGINGS));
+            e.register(new ArmorItem(ArmorsMaterials.LIGHT_BLUE_WOOL_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIGHT_BLUE_WOOL_BOOTS));
+
+            e.register(new ArmorItem(ArmorsMaterials.LIGHT_GRAY_WOOL_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIGHT_GRAY_WOOL_HELMET));
+            e.register(new ArmorItem(ArmorsMaterials.LIGHT_GRAY_WOOL_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIGHT_GRAY_WOOL_CHESTPLATE));
+            e.register(new ArmorItem(ArmorsMaterials.LIGHT_GRAY_WOOL_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName( Registries.LIGHT_GRAY_WOOL_LEGGINGS));
+            e.register(new ArmorItem(ArmorsMaterials.LIGHT_GRAY_WOOL_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIGHT_GRAY_WOOL_BOOTS));
+
+            e.register(new ArmorItem(ArmorsMaterials.LIME_WOOL_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIME_WOOL_HELMET));
+            e.register(new ArmorItem(ArmorsMaterials.LIME_WOOL_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIME_WOOL_CHESTPLATE));
+            e.register(new ArmorItem(ArmorsMaterials.LIME_WOOL_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIME_WOOL_LEGGINGS));
+            e.register(new ArmorItem(ArmorsMaterials.LIME_WOOL_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIME_WOOL_BOOTS));
 
 
 

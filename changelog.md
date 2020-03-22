@@ -1,3 +1,12 @@
+### 1.3
++ add wool armor
+    + light blue
+    + light gray
+    + lime
++ fix inability to reduce damage on falling
+    + cyan
+    + gray
+    + green
 ### 1.2
 + add wool armor
     + cyan

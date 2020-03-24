@@ -96,11 +96,41 @@ public class WoolsArmors {
     @ObjectHolder(Registries.MOD_ID + ":" + Registries.LIME_WOOL_BOOTS)
     public static Item LIME_WOOL_BOOTS;
 
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.MAGENTA_WOOL_HELMET)
+    public static Item MAGENTA_WOOL_HELMET;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.MAGENTA_WOOL_CHESTPLATE)
+    public static Item MAGENTA_WOOL_CHESTPLATE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.MAGENTA_WOOL_LEGGINGS)
+    public static Item MAGENTA_WOOL_LEGGINGS;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.MAGENTA_WOOL_BOOTS)
+    public static Item MAGENTA_WOOL_BOOTS;
 
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.ORANGE_WOOL_HELMET)
+    public static Item ORANGE_WOOL_HELMET;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.ORANGE_WOOL_CHESTPLATE)
+    public static Item ORANGE_WOOL_CHESTPLATE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.ORANGE_WOOL_LEGGINGS)
+    public static Item ORANGE_WOOL_LEGGINGS;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.ORANGE_WOOL_BOOTS)
+    public static Item ORANGE_WOOL_BOOTS;
 
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.PINK_WOOL_HELMET)
+    public static Item PINK_WOOL_HELMET;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.PINK_WOOL_CHESTPLATE)
+    public static Item PINK_WOOL_CHESTPLATE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.PINK_WOOL_LEGGINGS)
+    public static Item PINK_WOOL_LEGGINGS;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.PINK_WOOL_BOOTS)
+    public static Item PINK_WOOL_BOOTS;
 
-
-
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.PURPLE_WOOL_HELMET)
+    public static Item PURPLE_WOOL_HELMET;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.PURPLE_WOOL_CHESTPLATE)
+    public static Item PURPLE_WOOL_CHESTPLATE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.PURPLE_WOOL_LEGGINGS)
+    public static Item PURPLE_WOOL_LEGGINGS;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.PURPLE_WOOL_BOOTS)
+    public static Item PURPLE_WOOL_BOOTS;
 
     @ObjectHolder(Registries.MOD_ID + ":" + Registries.RED_WOOL_HELMET)
     public static Item RED_WOOL_HELMET;
@@ -180,7 +210,25 @@ public class WoolsArmors {
             e.register(new ArmorItem(ArmorsMaterials.LIME_WOOL_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIME_WOOL_LEGGINGS));
             e.register(new ArmorItem(ArmorsMaterials.LIME_WOOL_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LIME_WOOL_BOOTS));
 
+            e.register(new ArmorItem(ArmorsMaterials.MAGENTA_WOOL_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.MAGENTA_WOOL_HELMET));
+            e.register(new ArmorItem(ArmorsMaterials.MAGENTA_WOOL_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.MAGENTA_WOOL_CHESTPLATE));
+            e.register(new ArmorItem(ArmorsMaterials.MAGENTA_WOOL_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.MAGENTA_WOOL_LEGGINGS));
+            e.register(new ArmorItem(ArmorsMaterials.MAGENTA_WOOL_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.MAGENTA_WOOL_BOOTS));
 
+            e.register(new ArmorItem(ArmorsMaterials.ORANGE_WOOL_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.ORANGE_WOOL_HELMET));
+            e.register(new ArmorItem(ArmorsMaterials.ORANGE_WOOL_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.ORANGE_WOOL_CHESTPLATE));
+            e.register(new ArmorItem(ArmorsMaterials.ORANGE_WOOL_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.ORANGE_WOOL_LEGGINGS));
+            e.register(new ArmorItem(ArmorsMaterials.ORANGE_WOOL_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.ORANGE_WOOL_BOOTS));
+
+            e.register(new ArmorItem(ArmorsMaterials.PINK_WOOL_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.PINK_WOOL_HELMET));
+            e.register(new ArmorItem(ArmorsMaterials.PINK_WOOL_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.PINK_WOOL_CHESTPLATE));
+            e.register(new ArmorItem(ArmorsMaterials.PINK_WOOL_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.PINK_WOOL_LEGGINGS));
+            e.register(new ArmorItem(ArmorsMaterials.PINK_WOOL_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.PINK_WOOL_BOOTS));
+
+            e.register(new ArmorItem(ArmorsMaterials.PURPLE_WOOL_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.PURPLE_WOOL_HELMET));
+            e.register(new ArmorItem(ArmorsMaterials.PURPLE_WOOL_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.PURPLE_WOOL_CHESTPLATE));
+            e.register(new ArmorItem(ArmorsMaterials.PURPLE_WOOL_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.PURPLE_WOOL_LEGGINGS));
+            e.register(new ArmorItem(ArmorsMaterials.PURPLE_WOOL_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.PURPLE_WOOL_BOOTS));
 
             e.register(new ArmorItem(ArmorsMaterials.RED_WOOL_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.RED_WOOL_HELMET));
             e.register(new ArmorItem(ArmorsMaterials.RED_WOOL_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.RED_WOOL_CHESTPLATE));

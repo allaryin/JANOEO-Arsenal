@@ -93,9 +93,30 @@ public class Recipes extends RecipeProvider {
                 new Pair<>(WoolsArmors.LIME_WOOL_LEGGINGS, Arrays.asList("WWW", "W W", "W W")),
                 new Pair<>(WoolsArmors.LIME_WOOL_BOOTS, Arrays.asList("W W", "W W"))
         ));
-
-
-
+        listOfArmor.put(new Pair<>("has_magenta_wool", Blocks.MAGENTA_WOOL), Arrays.asList(
+                new Pair<>(WoolsArmors.MAGENTA_WOOL_HELMET, Arrays.asList("WWW", "W W")),
+                new Pair<>(WoolsArmors.MAGENTA_WOOL_CHESTPLATE, Arrays.asList("W W", "WWW", "WWW")),
+                new Pair<>(WoolsArmors.MAGENTA_WOOL_LEGGINGS, Arrays.asList("WWW", "W W", "W W")),
+                new Pair<>(WoolsArmors.MAGENTA_WOOL_BOOTS, Arrays.asList("W W", "W W"))
+        ));
+        listOfArmor.put(new Pair<>("has_orange_wool", Blocks.ORANGE_WOOL), Arrays.asList(
+                new Pair<>(WoolsArmors.ORANGE_WOOL_HELMET, Arrays.asList("WWW", "W W")),
+                new Pair<>(WoolsArmors.ORANGE_WOOL_CHESTPLATE, Arrays.asList("W W", "WWW", "WWW")),
+                new Pair<>(WoolsArmors.ORANGE_WOOL_LEGGINGS, Arrays.asList("WWW", "W W", "W W")),
+                new Pair<>(WoolsArmors.ORANGE_WOOL_BOOTS, Arrays.asList("W W", "W W"))
+        ));
+        listOfArmor.put(new Pair<>("has_pink_wool", Blocks.PINK_WOOL), Arrays.asList(
+                new Pair<>(WoolsArmors.PINK_WOOL_HELMET, Arrays.asList("WWW", "W W")),
+                new Pair<>(WoolsArmors.PINK_WOOL_CHESTPLATE, Arrays.asList("W W", "WWW", "WWW")),
+                new Pair<>(WoolsArmors.PINK_WOOL_LEGGINGS, Arrays.asList("WWW", "W W", "W W")),
+                new Pair<>(WoolsArmors.PINK_WOOL_BOOTS, Arrays.asList("W W", "W W"))
+        ));
+        listOfArmor.put(new Pair<>("has_purple_wool", Blocks.PURPLE_WOOL), Arrays.asList(
+                new Pair<>(WoolsArmors.PURPLE_WOOL_HELMET, Arrays.asList("WWW", "W W")),
+                new Pair<>(WoolsArmors.PURPLE_WOOL_CHESTPLATE, Arrays.asList("W W", "WWW", "WWW")),
+                new Pair<>(WoolsArmors.PURPLE_WOOL_LEGGINGS, Arrays.asList("WWW", "W W", "W W")),
+                new Pair<>(WoolsArmors.PURPLE_WOOL_BOOTS, Arrays.asList("W W", "W W"))
+        ));
         listOfArmor.put(new Pair<>("has_red_wool", Blocks.RED_WOOL), Arrays.asList(
                 new Pair<>(WoolsArmors.RED_WOOL_HELMET, Arrays.asList("WWW", "W W")),
                 new Pair<>(WoolsArmors.RED_WOOL_CHESTPLATE, Arrays.asList("W W", "WWW", "WWW")),
@@ -114,7 +135,6 @@ public class Recipes extends RecipeProvider {
                 new Pair<>(WoolsArmors.YELLOW_WOOL_LEGGINGS, Arrays.asList("WWW", "W W", "W W")),
                 new Pair<>(WoolsArmors.YELLOW_WOOL_BOOTS, Arrays.asList("W W", "W W"))
         ));
-
         listOfArmor.forEach((key, values) -> values.forEach(element -> {
             ShapedRecipeBuilder recipe = ShapedRecipeBuilder.shapedRecipe(element.getKey()).key('W', key.getValue());
             element.getValue().forEach(recipe::patternLine);

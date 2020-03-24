@@ -17,15 +17,19 @@ public class WoolArmorEvent implements IInitEvent {
                 new ItemStack(WoolsArmors.BLACK_WOOL_BOOTS),
                 new ItemStack(WoolsArmors.BLUE_WOOL_BOOTS),
                 new ItemStack(WoolsArmors.BROWN_WOOL_BOOTS),
-                new ItemStack(WoolsArmors.RED_WOOL_BOOTS),
-                new ItemStack(WoolsArmors.WHITE_WOOL_BOOTS),
-                new ItemStack(WoolsArmors.YELLOW_WOOL_BOOTS),
                 new ItemStack(WoolsArmors.CYAN_WOOL_BOOTS),
                 new ItemStack(WoolsArmors.GRAY_WOOL_BOOTS),
                 new ItemStack(WoolsArmors.GREEN_WOOL_BOOTS),
                 new ItemStack(WoolsArmors.LIGHT_BLUE_WOOL_BOOTS),
                 new ItemStack(WoolsArmors.LIGHT_GRAY_WOOL_BOOTS),
-                new ItemStack(WoolsArmors.LIME_WOOL_BOOTS)
+                new ItemStack(WoolsArmors.LIME_WOOL_BOOTS),
+                new ItemStack(WoolsArmors.MAGENTA_WOOL_BOOTS),
+                new ItemStack(WoolsArmors.ORANGE_WOOL_BOOTS),
+                new ItemStack(WoolsArmors.PINK_WOOL_BOOTS),
+                new ItemStack(WoolsArmors.PURPLE_WOOL_BOOTS),
+                new ItemStack(WoolsArmors.RED_WOOL_BOOTS),
+                new ItemStack(WoolsArmors.WHITE_WOOL_BOOTS),
+                new ItemStack(WoolsArmors.YELLOW_WOOL_BOOTS)
         );
         MinecraftForge.EVENT_BUS.<LivingFallEvent>addListener(e -> {
             final ItemStack boots = e.getEntityLiving().getItemStackFromSlot(EquipmentSlotType.FEET);

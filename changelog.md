@@ -1,3 +1,9 @@
+### 1.4
++ add wool armor
+    + magenta
+    + orange
+    + pink
+    + purple
 ### 1.3
 + add wool armor
     + light blue

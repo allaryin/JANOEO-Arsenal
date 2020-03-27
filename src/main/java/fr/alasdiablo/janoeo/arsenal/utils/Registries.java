@@ -1,6 +1,7 @@
 package fr.alasdiablo.janoeo.arsenal.utils;
 
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 
 /**
@@ -106,6 +107,12 @@ public class Registries {
     public static final String YELLOW_WOOL_CHESTPLATE          = "yellow_wool_chestplate";
     public static final String YELLOW_WOOL_LEGGINGS            = "yellow_wool_leggings";
     public static final String YELLOW_WOOL_BOOTS               = "yellow_wool_boots";
+
+    public static final String COPPER_ARMOR                    = "copper";
+    public static final String COPPER_HELMET                   = "copper_helmet";
+    public static final String COPPER_CHESTPLATE               = "copper_chestplate";
+    public static final String COPPER_LEGGINGS                 = "copper_leggings";
+    public static final String COPPER_BOOTS                    = "copper_boots";
 
     // List of all wool
     public static Item[] WOOLS_LIST = new Item[] {

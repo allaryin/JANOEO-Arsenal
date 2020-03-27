@@ -1,3 +1,7 @@
+### 1.5
++ change
+    + Sound of the wool armor from EQUIP_IRON to EQUIP_LEATHER
++ add copper armor
 ### 1.4
 + add wool armor
     + magenta

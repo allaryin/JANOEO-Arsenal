@@ -1,6 +1,8 @@
 package fr.alasdiablo.janoeo.arsenal.data;
 
+import fr.alasdiablo.janoeo.arsenal.init.Armors;
 import fr.alasdiablo.janoeo.arsenal.init.WoolsArmors;
+import fr.alasdiablo.janoeo.tags.ItemsTags;
 import javafx.util.Pair;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -9,6 +11,7 @@ import net.minecraft.data.IFinishedRecipe;
 import net.minecraft.data.RecipeProvider;
 import net.minecraft.data.ShapedRecipeBuilder;
 import net.minecraft.item.Item;
+import net.minecraft.tags.Tag;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -35,6 +38,23 @@ public class Recipes extends RecipeProvider {
     @Override
     protected void registerRecipes(Consumer<IFinishedRecipe> consumer) {
         this.woolArmors(consumer);
+        this.armors(consumer);
+    }
+
+
+    private void armors(Consumer<IFinishedRecipe> consumer) {
+        Map<Pair<String, Tag<Item>>, List<Pair<Item, List<String>>>> listOfArmor = new HashMap<>();
+        listOfArmor.put(new Pair<>("has_copper_ingot", ItemsTags.Ingots.COPPER), Arrays.asList(
+                new Pair<>(Armors.COPPER_HELMET, Arrays.asList("III", "I I")),
+                new Pair<>(Armors.COPPER_CHESTPLATE, Arrays.asList("I I", "III", "III")),
+                new Pair<>(Armors.COPPER_LEGGINGS, Arrays.asList("III", "I I", "I I")),
+                new Pair<>(Armors.COPPER_BOOTS, Arrays.asList("I I", "I I"))
+        ));
+        listOfArmor.forEach((key, values) -> values.forEach(element -> {
+            ShapedRecipeBuilder recipe = ShapedRecipeBuilder.shapedRecipe(element.getKey()).key('I', key.getValue());
+            element.getValue().forEach(recipe::patternLine);
+            recipe.addCriterion(key.getKey(), this.hasItem(key.getValue())).build(consumer);
+        }));
     }
 
     private void woolArmors(Consumer<IFinishedRecipe> consumer) {

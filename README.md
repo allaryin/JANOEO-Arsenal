@@ -20,12 +20,17 @@ Janoeo Arsenal have for goal to add armor and weapon in minecraft.
 
 ## Roadmap
 
-- add all wools armors
 - add armors and tools with using janoeo ingots and gems
 
 ## Why did you make this mod?
 
 I just wanted to make a useful mod for other people.
+
+## Dependencies
+
++ Required
+    + [JANOEO](https://www.curseforge.com/minecraft/mc-mods/janoeo)
+
 
 ## Can I use this in a modpack?
 

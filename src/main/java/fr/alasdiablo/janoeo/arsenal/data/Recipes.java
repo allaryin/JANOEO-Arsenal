@@ -50,6 +50,12 @@ public class Recipes extends RecipeProvider {
                 new Pair<>(Armors.COPPER_LEGGINGS, Arrays.asList("III", "I I", "I I")),
                 new Pair<>(Armors.COPPER_BOOTS, Arrays.asList("I I", "I I"))
         ));
+        listOfArmor.put(new Pair<>("has_aluminium_ingot", ItemsTags.Ingots.ALUMINIUM), Arrays.asList(
+                new Pair<>(Armors.ALUMINIUM_HELMET, Arrays.asList("III", "I I")),
+                new Pair<>(Armors.ALUMINIUM_CHESTPLATE, Arrays.asList("I I", "III", "III")),
+                new Pair<>(Armors.ALUMINIUM_LEGGINGS, Arrays.asList("III", "I I", "I I")),
+                new Pair<>(Armors.ALUMINIUM_BOOTS, Arrays.asList("I I", "I I"))
+        ));
         listOfArmor.forEach((key, values) -> values.forEach(element -> {
             ShapedRecipeBuilder recipe = ShapedRecipeBuilder.shapedRecipe(element.getKey()).key('I', key.getValue());
             element.getValue().forEach(recipe::patternLine);

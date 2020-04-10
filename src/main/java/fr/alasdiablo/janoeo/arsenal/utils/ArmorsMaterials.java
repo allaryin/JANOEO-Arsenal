@@ -12,23 +12,24 @@ import net.minecraft.util.SoundEvents;
  */
 public enum ArmorsMaterials implements IArmorMaterial {
 
-    BLACK_WOOL_ARMOR(Registries.BLACK_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    BLUE_WOOL_ARMOR(Registries.BLUE_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    BROWN_WOOL_ARMOR(Registries.BROWN_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    CYAN_WOOL_ARMOR(Registries.CYAN_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    GRAY_WOOL_ARMOR(Registries.GRAY_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    GREEN_WOOL_ARMOR(Registries.GREEN_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    LIGHT_BLUE_WOOL_ARMOR(Registries.LIGHT_BLUE_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    LIGHT_GRAY_WOOL_ARMOR(Registries.LIGHT_GRAY_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    LIME_WOOL_ARMOR(Registries.LIME_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    MAGENTA_WOOL_ARMOR(Registries.MAGENTA_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    ORANGE_WOOL_ARMOR(Registries.ORANGE_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    PINK_WOOL_ARMOR(Registries.PINK_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    PURPLE_WOOL_ARMOR(Registries.PURPLE_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    RED_WOOL_ARMOR(Registries.RED_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    WHITE_WOOL_ARMOR(Registries.WHITE_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    YELLOW_WOOL_ARMOR(Registries.YELLOW_WOOL_ARMOR, 75, new int[] {1, 2, 3, 1} ,75, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
-    COPPER_ARMOR(Registries.COPPER_ARMOR,  7, new int[]{1, 3, 5, 2}, 9, Ingredient.fromTag(ItemsTags.Ingots.COPPER), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+    BLACK_WOOL_ARMOR(Registries.BLACK_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    BLUE_WOOL_ARMOR(Registries.BLUE_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    BROWN_WOOL_ARMOR(Registries.BROWN_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    CYAN_WOOL_ARMOR(Registries.CYAN_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    GRAY_WOOL_ARMOR(Registries.GRAY_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    GREEN_WOOL_ARMOR(Registries.GREEN_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    LIGHT_BLUE_WOOL_ARMOR(Registries.LIGHT_BLUE_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    LIGHT_GRAY_WOOL_ARMOR(Registries.LIGHT_GRAY_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    LIME_WOOL_ARMOR(Registries.LIME_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    MAGENTA_WOOL_ARMOR(Registries.MAGENTA_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    ORANGE_WOOL_ARMOR(Registries.ORANGE_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    PINK_WOOL_ARMOR(Registries.PINK_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    PURPLE_WOOL_ARMOR(Registries.PURPLE_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    RED_WOOL_ARMOR(Registries.RED_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    WHITE_WOOL_ARMOR(Registries.WHITE_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    YELLOW_WOOL_ARMOR(Registries.YELLOW_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
+    COPPER_ARMOR(Registries.COPPER_ARMOR,  7, new int[]{1, 3, 5, 2}, 9, Ingredient.fromTag(ItemsTags.Ingots.COPPER), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F),
+    ALUMINIUM_ARMOR(Registries.ALUMINIUM_ARMOR,  6, new int[]{1, 2, 4, 1}, 7, Ingredient.fromTag(ItemsTags.Ingots.ALUMINIUM), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 
     /**
      * name of the material

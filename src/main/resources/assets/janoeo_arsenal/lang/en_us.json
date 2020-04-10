@@ -67,5 +67,9 @@
   "item.janoeo_arsenal.copper_helmet": "Copper Helmet",
   "item.janoeo_arsenal.copper_chestplate": "Copper Chestplate",
   "item.janoeo_arsenal.copper_leggings": "Copper Leggings",
-  "item.janoeo_arsenal.copper_boots": "Copper Boots"
+  "item.janoeo_arsenal.copper_boots": "Copper Boots",
+  "item.janoeo_arsenal.aluminium_helmet": "Aluminium Helmet",
+  "item.janoeo_arsenal.aluminium_chestplate": "Aluminium Chestplate",
+  "item.janoeo_arsenal.aluminium_leggings": "Aluminium Leggings",
+  "item.janoeo_arsenal.aluminium_boots": "Aluminium Boots"
 }

@@ -108,6 +108,12 @@ public class Registries {
     public static final String YELLOW_WOOL_LEGGINGS            = "yellow_wool_leggings";
     public static final String YELLOW_WOOL_BOOTS               = "yellow_wool_boots";
 
+    public static final String ALUMINIUM_ARMOR                 = "aluminium";
+    public static final String ALUMINIUM_HELMET                = "aluminium_helmet";
+    public static final String ALUMINIUM_CHESTPLATE            = "aluminium_chestplate";
+    public static final String ALUMINIUM_LEGGINGS              = "aluminium_leggings";
+    public static final String ALUMINIUM_BOOTS                 = "aluminium_boots";
+
     public static final String COPPER_ARMOR                    = "copper";
     public static final String COPPER_HELMET                   = "copper_helmet";
     public static final String COPPER_CHESTPLATE               = "copper_chestplate";

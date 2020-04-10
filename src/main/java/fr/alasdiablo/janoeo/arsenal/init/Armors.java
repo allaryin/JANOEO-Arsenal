@@ -15,6 +15,15 @@ import net.minecraftforge.registries.ObjectHolder;
 @SuppressWarnings("unused")
 public class Armors {
 
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.ALUMINIUM_HELMET)
+    public static Item ALUMINIUM_HELMET;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.ALUMINIUM_CHESTPLATE)
+    public static Item ALUMINIUM_CHESTPLATE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.ALUMINIUM_LEGGINGS)
+    public static Item ALUMINIUM_LEGGINGS;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.ALUMINIUM_BOOTS)
+    public static Item ALUMINIUM_BOOTS;
+
     @ObjectHolder(Registries.MOD_ID + ":" + Registries.COPPER_HELMET)
     public static Item COPPER_HELMET;
     @ObjectHolder(Registries.MOD_ID + ":" + Registries.COPPER_CHESTPLATE)
@@ -34,6 +43,11 @@ public class Armors {
             e.register(new ArmorItem(ArmorsMaterials.COPPER_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.COPPER_CHESTPLATE));
             e.register(new ArmorItem(ArmorsMaterials.COPPER_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName( Registries.COPPER_LEGGINGS));
             e.register(new ArmorItem(ArmorsMaterials.COPPER_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.COPPER_BOOTS));
+
+            e.register(new ArmorItem(ArmorsMaterials.ALUMINIUM_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.ALUMINIUM_HELMET));
+            e.register(new ArmorItem(ArmorsMaterials.ALUMINIUM_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.ALUMINIUM_CHESTPLATE));
+            e.register(new ArmorItem(ArmorsMaterials.ALUMINIUM_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName( Registries.ALUMINIUM_LEGGINGS));
+            e.register(new ArmorItem(ArmorsMaterials.ALUMINIUM_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.ALUMINIUM_BOOTS));
         }
     }
 }

@@ -1,5 +1,6 @@
 package fr.alasdiablo.janoeo.arsenal.init;
 
+import com.sun.prism.impl.paint.PaintUtil;
 import fr.alasdiablo.janoeo.arsenal.Arsenal;
 import fr.alasdiablo.janoeo.arsenal.utils.ArmorsMaterials;
 import fr.alasdiablo.janoeo.arsenal.utils.Registries;
@@ -33,6 +34,15 @@ public class Armors {
     @ObjectHolder(Registries.MOD_ID + ":" + Registries.COPPER_BOOTS)
     public static Item COPPER_BOOTS;
 
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LEAD_HELMET)
+    public static Item LEAD_HELMET;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LEAD_CHESTPLATE)
+    public static Item LEAD_CHESTPLATE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LEAD_LEGGINGS)
+    public static Item LEAD_LEGGINGS;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.LEAD_BOOTS)
+    public static Item LEAD_BOOTS;
+
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
@@ -48,6 +58,11 @@ public class Armors {
             e.register(new ArmorItem(ArmorsMaterials.ALUMINIUM_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.ALUMINIUM_CHESTPLATE));
             e.register(new ArmorItem(ArmorsMaterials.ALUMINIUM_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName( Registries.ALUMINIUM_LEGGINGS));
             e.register(new ArmorItem(ArmorsMaterials.ALUMINIUM_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.ALUMINIUM_BOOTS));
+
+            e.register(new ArmorItem(ArmorsMaterials.LEAD_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LEAD_HELMET));
+            e.register(new ArmorItem(ArmorsMaterials.LEAD_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LEAD_CHESTPLATE));
+            e.register(new ArmorItem(ArmorsMaterials.LEAD_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName( Registries.LEAD_LEGGINGS));
+            e.register(new ArmorItem(ArmorsMaterials.LEAD_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(Arsenal.setup.janoeoArmorGroup)).setRegistryName(Registries.LEAD_BOOTS));
         }
     }
 }

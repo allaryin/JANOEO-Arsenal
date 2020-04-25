@@ -120,6 +120,12 @@ public class Registries {
     public static final String COPPER_LEGGINGS                 = "copper_leggings";
     public static final String COPPER_BOOTS                    = "copper_boots";
 
+    public static final String LEAD_ARMOR                    = "lead";
+    public static final String LEAD_HELMET                   = "lead_helmet";
+    public static final String LEAD_CHESTPLATE               = "lead_chestplate";
+    public static final String LEAD_LEGGINGS                 = "lead_leggings";
+    public static final String LEAD_BOOTS                    = "lead_boots";
+
     // List of all wool
     public static Item[] WOOLS_LIST = new Item[] {
             Blocks.BLACK_WOOL.asItem(),

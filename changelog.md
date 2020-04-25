@@ -1,3 +1,5 @@
+### 1.7
++ add lead armor
 ### 1.6
 + change
     + durability of the wool armor from 75 to 5 (to match leather armor)

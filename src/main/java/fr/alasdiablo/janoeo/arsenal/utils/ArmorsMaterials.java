@@ -29,7 +29,8 @@ public enum ArmorsMaterials implements IArmorMaterial {
     WHITE_WOOL_ARMOR(Registries.WHITE_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
     YELLOW_WOOL_ARMOR(Registries.YELLOW_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
     COPPER_ARMOR(Registries.COPPER_ARMOR,  7, new int[]{1, 3, 5, 2}, 9, Ingredient.fromTag(ItemsTags.Ingots.COPPER), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F),
-    ALUMINIUM_ARMOR(Registries.ALUMINIUM_ARMOR,  6, new int[]{1, 2, 4, 1}, 7, Ingredient.fromTag(ItemsTags.Ingots.ALUMINIUM), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+    ALUMINIUM_ARMOR(Registries.ALUMINIUM_ARMOR,  6, new int[]{1, 2, 4, 1}, 7, Ingredient.fromTag(ItemsTags.Ingots.ALUMINIUM), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F),
+    LEAD_ARMOR(Registries.LEAD_ARMOR,  5, new int[]{1, 2, 4, 1}, 7, Ingredient.fromTag(ItemsTags.Ingots.ALUMINIUM), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 
     /**
      * name of the material

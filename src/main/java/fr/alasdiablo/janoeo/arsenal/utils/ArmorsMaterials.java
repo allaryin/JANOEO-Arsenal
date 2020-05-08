@@ -2,6 +2,7 @@ package fr.alasdiablo.janoeo.arsenal.utils;
 
 import fr.alasdiablo.janoeo.tags.ItemsTags;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.SoundEvent;
@@ -29,8 +30,11 @@ public enum ArmorsMaterials implements IArmorMaterial {
     WHITE_WOOL_ARMOR(Registries.WHITE_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
     YELLOW_WOOL_ARMOR(Registries.YELLOW_WOOL_ARMOR, 5, new int[] {1, 2, 3, 1} ,25, Ingredient.fromItems(Registries.WOOLS_LIST), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2f),
     COPPER_ARMOR(Registries.COPPER_ARMOR,  7, new int[]{1, 3, 5, 2}, 9, Ingredient.fromTag(ItemsTags.Ingots.COPPER), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F),
-    ALUMINIUM_ARMOR(Registries.ALUMINIUM_ARMOR,  6, new int[]{1, 2, 4, 1}, 7, Ingredient.fromTag(ItemsTags.Ingots.ALUMINIUM), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F),
-    LEAD_ARMOR(Registries.LEAD_ARMOR,  5, new int[]{1, 2, 4, 1}, 7, Ingredient.fromTag(ItemsTags.Ingots.ALUMINIUM), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+    ALUMINIUM_ARMOR(Registries.ALUMINIUM_ARMOR,  6, new int[]{1, 2, 4, 1}, 6, Ingredient.fromTag(ItemsTags.Ingots.ALUMINIUM), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F),
+    LEAD_ARMOR(Registries.LEAD_ARMOR,  5, new int[]{1, 2, 4, 1}, 5, Ingredient.fromTag(ItemsTags.Ingots.LEAD), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F),
+    SILVER_ARMOR(Registries.SILVER_ARMOR,  15, new int[]{2, 5, 6, 2}, 25, Ingredient.fromTag(ItemsTags.Ingots.SILVER), SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F),
+    TIN_ARMOR(Registries.TIN_ARMOR, 6, new int[]{1, 2, 4, 1}, 7, Ingredient.fromTag(ItemsTags.Ingots.TIN), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F),
+    URANIUM_ARMOR(Registries.URANIUM_ARMOR,  12, new int[]{2, 5, 6, 2}, 9, Ingredient.fromTag(ItemsTags.Ingots.URANIUM), SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 
     /**
      * name of the material

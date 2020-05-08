@@ -120,11 +120,30 @@ public class Registries {
     public static final String COPPER_LEGGINGS                 = "copper_leggings";
     public static final String COPPER_BOOTS                    = "copper_boots";
 
-    public static final String LEAD_ARMOR                    = "lead";
-    public static final String LEAD_HELMET                   = "lead_helmet";
-    public static final String LEAD_CHESTPLATE               = "lead_chestplate";
-    public static final String LEAD_LEGGINGS                 = "lead_leggings";
-    public static final String LEAD_BOOTS                    = "lead_boots";
+    public static final String LEAD_ARMOR                      = "lead";
+    public static final String LEAD_HELMET                     = "lead_helmet";
+    public static final String LEAD_CHESTPLATE                 = "lead_chestplate";
+    public static final String LEAD_LEGGINGS                   = "lead_leggings";
+    public static final String LEAD_BOOTS                      = "lead_boots";
+
+
+    public static final String SILVER_ARMOR                    = "silver";
+    public static final String SILVER_HELMET                   = "silver_helmet";
+    public static final String SILVER_CHESTPLATE               = "silver_chestplate";
+    public static final String SILVER_LEGGINGS                 = "silver_leggings";
+    public static final String SILVER_BOOTS                    = "silver_boots";
+
+    public static final String TIN_ARMOR                       = "tin";
+    public static final String TIN_HELMET                      = "tin_helmet";
+    public static final String TIN_CHESTPLATE                  = "tin_chestplate";
+    public static final String TIN_LEGGINGS                    = "tin_leggings";
+    public static final String TIN_BOOTS                       = "tin_boots";
+
+    public static final String URANIUM_ARMOR                   = "uranium";
+    public static final String URANIUM_HELMET                  = "uranium_helmet";
+    public static final String URANIUM_CHESTPLATE              = "uranium_chestplate";
+    public static final String URANIUM_LEGGINGS                = "uranium_leggings";
+    public static final String URANIUM_BOOTS                   = "uranium_boots";
 
     // List of all wool
     public static Item[] WOOLS_LIST = new Item[] {

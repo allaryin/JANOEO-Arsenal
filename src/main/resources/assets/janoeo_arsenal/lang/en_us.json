@@ -75,5 +75,17 @@
   "item.janoeo_arsenal.lead_helmet": "Lead Helmet",
   "item.janoeo_arsenal.lead_chestplate": "Lead Chestplate",
   "item.janoeo_arsenal.lead_leggings": "Lead Leggings",
-  "item.janoeo_arsenal.lead_boots": "Lead Boots"
+  "item.janoeo_arsenal.lead_boots": "Lead Boots",
+  "item.janoeo_arsenal.silver_helmet": "Silver Helmet",
+  "item.janoeo_arsenal.silver_chestplate": "Silver Chestplate",
+  "item.janoeo_arsenal.silver_leggings": "Silver Leggings",
+  "item.janoeo_arsenal.silver_boots": "Silver Boots",
+  "item.janoeo_arsenal.tin_helmet": "Tin Helmet",
+  "item.janoeo_arsenal.tin_chestplate": "Tin Chestplate",
+  "item.janoeo_arsenal.tin_leggings": "Tin Leggings",
+  "item.janoeo_arsenal.tin_boots": "Tin Boots",
+  "item.janoeo_arsenal.uranium_helmet": "Uranium Helmet",
+  "item.janoeo_arsenal.uranium_chestplate": "Uranium Chestplate",
+  "item.janoeo_arsenal.uranium_leggings": "Uranium Leggings",
+  "item.janoeo_arsenal.uranium_boots": "Uranium Boots"
 }

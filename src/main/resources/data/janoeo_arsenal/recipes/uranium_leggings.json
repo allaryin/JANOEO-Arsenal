@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/uranium"
+    }
+  },
+  "result": {
+    "item": "janoeo_arsenal:uranium_leggings"
+  }
+}

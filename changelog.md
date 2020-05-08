@@ -1,3 +1,10 @@
+### 1.8
++ add new armor
+    + silver
+    + tin
+    + uranium
++ fix lead armor have aluminium as repair material
+
 ### 1.7
 + add lead armor
 ### 1.6

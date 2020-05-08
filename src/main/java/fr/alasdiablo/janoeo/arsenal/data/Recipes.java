@@ -62,6 +62,24 @@ public class Recipes extends RecipeProvider {
                 new Pair<>(Armors.LEAD_LEGGINGS, Arrays.asList("III", "I I", "I I")),
                 new Pair<>(Armors.LEAD_BOOTS, Arrays.asList("I I", "I I"))
         ));
+        listOfArmor.put(new Pair<>("has_silver_ingot", ItemsTags.Ingots.SILVER), Arrays.asList(
+                new Pair<>(Armors.SILVER_HELMET, Arrays.asList("III", "I I")),
+                new Pair<>(Armors.SILVER_CHESTPLATE, Arrays.asList("I I", "III", "III")),
+                new Pair<>(Armors.SILVER_LEGGINGS, Arrays.asList("III", "I I", "I I")),
+                new Pair<>(Armors.SILVER_BOOTS, Arrays.asList("I I", "I I"))
+        ));
+        listOfArmor.put(new Pair<>("has_tin_ingot", ItemsTags.Ingots.TIN), Arrays.asList(
+                new Pair<>(Armors.TIN_HELMET, Arrays.asList("III", "I I")),
+                new Pair<>(Armors.TIN_CHESTPLATE, Arrays.asList("I I", "III", "III")),
+                new Pair<>(Armors.TIN_LEGGINGS, Arrays.asList("III", "I I", "I I")),
+                new Pair<>(Armors.TIN_BOOTS, Arrays.asList("I I", "I I"))
+        ));
+        listOfArmor.put(new Pair<>("has_uranium_ingot", ItemsTags.Ingots.URANIUM), Arrays.asList(
+                new Pair<>(Armors.URANIUM_HELMET, Arrays.asList("III", "I I")),
+                new Pair<>(Armors.URANIUM_CHESTPLATE, Arrays.asList("I I", "III", "III")),
+                new Pair<>(Armors.URANIUM_LEGGINGS, Arrays.asList("III", "I I", "I I")),
+                new Pair<>(Armors.URANIUM_BOOTS, Arrays.asList("I I", "I I"))
+        ));
         listOfArmor.forEach((key, values) -> values.forEach(element -> {
             ShapedRecipeBuilder recipe = ShapedRecipeBuilder.shapedRecipe(element.getKey()).key('I', key.getValue());
             element.getValue().forEach(recipe::patternLine);

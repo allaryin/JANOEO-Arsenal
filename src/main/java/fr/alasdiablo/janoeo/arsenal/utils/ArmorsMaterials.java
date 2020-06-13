@@ -2,7 +2,6 @@ package fr.alasdiablo.janoeo.arsenal.utils;
 
 import fr.alasdiablo.janoeo.tags.ItemsTags;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.SoundEvent;

@@ -2,6 +2,7 @@ package fr.alasdiablo.janoeo.arsenal.utils;
 
 import fr.alasdiablo.janoeo.arsenal.event.IInitEvent;
 import fr.alasdiablo.janoeo.arsenal.event.WoolArmorEvent;
+import fr.alasdiablo.janoeo.arsenal.init.Tools;
 import fr.alasdiablo.janoeo.arsenal.init.WoolsArmors;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -15,6 +16,13 @@ public class ModSetup {
         @Override
         public ItemStack createIcon() {
             return new ItemStack(WoolsArmors.BLACK_WOOL_CHESTPLATE);
+        }
+    };
+
+    public ItemGroup janoeoToolGroup = new ItemGroup("janoeo.tool.group") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(Tools.COPPER_AXE);
         }
     };
 

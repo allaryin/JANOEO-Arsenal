@@ -1,10 +1,13 @@
+### 2.0
++ optimized entity falling event (damage reduction with wool boots)
++ update janoeo from 3.2.1 to 3.6
+
 ### 1.8
 + add new armor
     + silver
     + tin
     + uranium
 + fix lead armor have aluminium as repair material
-
 ### 1.7
 + add lead armor
 ### 1.6

@@ -2,6 +2,7 @@ package fr.alasdiablo.janoeo.arsenal.event;
 
 import fr.alasdiablo.janoeo.arsenal.init.WoolsArmors;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.LivingFallEvent;
@@ -33,10 +34,13 @@ public class WoolArmorEvent implements IInitEvent {
         );
         MinecraftForge.EVENT_BUS.<LivingFallEvent>addListener(e -> {
             final ItemStack boots = e.getEntityLiving().getItemStackFromSlot(EquipmentSlotType.FEET);
-            woolArmor.forEach(armor -> {
-                if(boots.isItemEqualIgnoreDurability(armor))
+
+            for (ItemStack armor : woolArmor) {
+                if (boots.isItemEqualIgnoreDurability(armor)) {
                     e.setDamageMultiplier(0.5F);
-            });
+                    break;
+                }
+            }
         });
     }
 }

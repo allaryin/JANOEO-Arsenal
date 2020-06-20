@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "janoeo_arsenal:aluminium_hoe"
+    ]
+  },
+  "criteria": {
+    "has_aluminium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/aluminium"
+          }
+        ]
+      }
+    },
+    "has_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:rods/wooden"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "janoeo_arsenal:aluminium_hoe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_aluminium",
+      "has_stick",
+      "has_the_recipe"
+    ]
+  ]
+}

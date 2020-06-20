@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "S",
+    "S"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/aluminium"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "janoeo_arsenal:aluminium_shovel"
+  }
+}

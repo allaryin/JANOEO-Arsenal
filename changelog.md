@@ -1,5 +1,8 @@
 ### 2.0
 + optimized entity falling event (damage reduction with wool boots)
++ add new tools
+    + copper
+    + aluminium
 + update janoeo from 3.2.1 to 3.6
 
 ### 1.8

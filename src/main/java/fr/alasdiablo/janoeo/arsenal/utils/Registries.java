@@ -151,6 +151,12 @@ public class Registries {
     public static final String COPPER_SHOVEL                   = "copper_shovel";
     public static final String COPPER_SWORD                    = "copper_sword";
 
+    public static final String ALUMINIUM_AXE                   = "aluminium_axe";
+    public static final String ALUMINIUM_HOE                   = "aluminium_hoe";
+    public static final String ALUMINIUM_PICKAXE               = "aluminium_pickaxe";
+    public static final String ALUMINIUM_SHOVEL                = "aluminium_shovel";
+    public static final String ALUMINIUM_SWORD                 = "aluminium_sword";
+
     // List of all wool
     public static Item[] WOOLS_LIST = new Item[] {
             Blocks.BLACK_WOOL.asItem(),

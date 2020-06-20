@@ -5,7 +5,8 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
 public enum ItemsTiers implements IItemTier {
-    COPPER(2, 32, 6.0f, 1.5f, 8, Ingredient.fromTag(ItemsTags.Ingots.COPPER));
+    COPPER(2, 32, 6.0f, 1.5f, 9, Ingredient.fromTag(ItemsTags.Ingots.COPPER)),
+    ALUMINIUM(2, 28, 5.0f, 1.0f, 6, Ingredient.fromTag(ItemsTags.Ingots.ALUMINIUM));
 
     private final int harvestLevel;
     private final int maxUses;

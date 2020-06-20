@@ -1,17 +1,17 @@
 package fr.alasdiablo.janoeo.arsenal.data;
 
 import fr.alasdiablo.janoeo.arsenal.init.Armors;
+import fr.alasdiablo.janoeo.arsenal.init.Tools;
 import fr.alasdiablo.janoeo.arsenal.init.WoolsArmors;
 import fr.alasdiablo.janoeo.tags.ItemsTags;
 import javafx.util.Pair;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.DataGenerator;
-import net.minecraft.data.IFinishedRecipe;
-import net.minecraft.data.RecipeProvider;
-import net.minecraft.data.ShapedRecipeBuilder;
+import net.minecraft.data.*;
 import net.minecraft.item.Item;
 import net.minecraft.tags.Tag;
+import net.minecraft.util.IItemProvider;
+import net.minecraftforge.common.Tags;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -39,6 +39,111 @@ public class Recipes extends RecipeProvider {
     protected void registerRecipes(Consumer<IFinishedRecipe> consumer) {
         this.woolArmors(consumer);
         this.armors(consumer);
+        this.tools(consumer);
+    }
+
+    private void tools(Consumer<IFinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shapedRecipe(Tools.COPPER_AXE)
+                .key('C', ItemsTags.Ingots.COPPER)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("CC")
+                .patternLine("CS")
+                .patternLine(" S")
+                .addCriterion("has_copper", this.hasItem(ItemsTags.Ingots.COPPER))
+                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.COPPER_HOE)
+                .key('C', ItemsTags.Ingots.COPPER)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("CC")
+                .patternLine(" S")
+                .patternLine(" S")
+                .addCriterion("has_copper", this.hasItem(ItemsTags.Ingots.COPPER))
+                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.COPPER_PICKAXE)
+                .key('C', ItemsTags.Ingots.COPPER)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("CCC")
+                .patternLine(" S ")
+                .patternLine(" S ")
+                .addCriterion("has_copper", this.hasItem(ItemsTags.Ingots.COPPER))
+                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.COPPER_SHOVEL)
+                .key('C', ItemsTags.Ingots.COPPER)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("C")
+                .patternLine("S")
+                .patternLine("S")
+                .addCriterion("has_copper", this.hasItem(ItemsTags.Ingots.COPPER))
+                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.COPPER_SWORD)
+                .key('C', ItemsTags.Ingots.COPPER)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("C")
+                .patternLine("C")
+                .patternLine("S")
+                .addCriterion("has_copper", this.hasItem(ItemsTags.Ingots.COPPER))
+                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.ALUMINIUM_AXE)
+                .key('A', ItemsTags.Ingots.ALUMINIUM)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("AA")
+                .patternLine("AS")
+                .patternLine(" S")
+                .addCriterion("has_aluminium", this.hasItem(ItemsTags.Ingots.ALUMINIUM))
+                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.ALUMINIUM_HOE)
+                .key('A', ItemsTags.Ingots.ALUMINIUM)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("AA")
+                .patternLine(" S")
+                .patternLine(" S")
+                .addCriterion("has_aluminium", this.hasItem(ItemsTags.Ingots.ALUMINIUM))
+                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.ALUMINIUM_PICKAXE)
+                .key('A', ItemsTags.Ingots.ALUMINIUM)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("AAA")
+                .patternLine(" S ")
+                .patternLine(" S ")
+                .addCriterion("has_aluminium", this.hasItem(ItemsTags.Ingots.ALUMINIUM))
+                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.ALUMINIUM_SHOVEL)
+                .key('A', ItemsTags.Ingots.ALUMINIUM)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("A")
+                .patternLine("S")
+                .patternLine("S")
+                .addCriterion("has_aluminium", this.hasItem(ItemsTags.Ingots.ALUMINIUM))
+                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.ALUMINIUM_SWORD)
+                .key('C', ItemsTags.Ingots.ALUMINIUM)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("C")
+                .patternLine("C")
+                .patternLine("S")
+                .addCriterion("has_aluminium", this.hasItem(ItemsTags.Ingots.ALUMINIUM))
+                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
     }
 
 

@@ -1,6 +1,8 @@
 package fr.alasdiablo.janoeo.arsenal.event;
 
 import fr.alasdiablo.janoeo.arsenal.init.WoolsArmors;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -33,12 +35,14 @@ public class WoolArmorEvent implements IInitEvent {
                 new ItemStack(WoolsArmors.YELLOW_WOOL_BOOTS)
         );
         MinecraftForge.EVENT_BUS.<LivingFallEvent>addListener(e -> {
-            final ItemStack boots = e.getEntityLiving().getItemStackFromSlot(EquipmentSlotType.FEET);
+            if (e.getEntityLiving() instanceof PlayerEntity || e.getEntityLiving() instanceof ServerPlayerEntity) {
+                final ItemStack boots = e.getEntityLiving().getItemStackFromSlot(EquipmentSlotType.FEET);
 
-            for (ItemStack armor : woolArmor) {
-                if (boots.isItemEqualIgnoreDurability(armor)) {
-                    e.setDamageMultiplier(0.5F);
-                    break;
+                for (ItemStack armor : woolArmor) {
+                    if (boots.isItemEqualIgnoreDurability(armor)) {
+                        e.setDamageMultiplier(0.5F);
+                        break;
+                    }
                 }
             }
         });

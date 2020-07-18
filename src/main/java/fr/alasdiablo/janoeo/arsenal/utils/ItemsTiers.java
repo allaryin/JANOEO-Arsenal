@@ -1,12 +1,17 @@
 package fr.alasdiablo.janoeo.arsenal.utils;
 
+import fr.alasdiablo.janoeo.ingots.IngotsItems;
 import fr.alasdiablo.janoeo.tags.ItemsTags;
 import net.minecraft.item.IItemTier;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.tags.ItemTags;
+import net.minecraftforge.common.Tags;
 
 public enum ItemsTiers implements IItemTier {
-    COPPER(2, 32, 6.0f, 1.5f, 9, Ingredient.fromTag(ItemsTags.Ingots.COPPER)),
-    ALUMINIUM(2, 28, 5.0f, 1.0f, 6, Ingredient.fromTag(ItemsTags.Ingots.ALUMINIUM));
+    //COPPER(2, 32, 6.0f, 1.5f, 9, Ingredient.fromStacks(new ItemStack(IngotsItems.COPPER_INGOT))),
+    COPPER(2, 32, 6.0f, 1.5f, 9, Ingredient.fromTag(Tags.Items.FENCES_WOODEN)),
+    ALUMINIUM(2, 28, 5.0f, 1.0f, 6, Ingredient.fromStacks(new ItemStack(IngotsItems.ALUMINIUM_INGOT)));
 
     private final int harvestLevel;
     private final int maxUses;

@@ -1,6 +1,7 @@
 package fr.alasdiablo.janoeo.arsenal.init;
 
 import fr.alasdiablo.janoeo.arsenal.Arsenal;
+import fr.alasdiablo.janoeo.arsenal.item.CustomHoeItem;
 import fr.alasdiablo.janoeo.arsenal.utils.ItemsTiers;
 import fr.alasdiablo.janoeo.arsenal.utils.Registries;
 import net.minecraft.item.*;
@@ -40,14 +41,15 @@ public class Tools {
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             IForgeRegistry<Item> e = event.getRegistry();
+
             e.register(new AxeItem(ItemsTiers.COPPER, 6.5f, -3.15f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.COPPER_AXE));
-            e.register(new HoeItem(ItemsTiers.COPPER, -1.5f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.COPPER_HOE));
+            e.register(new CustomHoeItem(ItemsTiers.COPPER, -1, -1.5f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.COPPER_HOE));
             e.register(new PickaxeItem(ItemsTiers.COPPER, 1, -2.8f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.COPPER_PICKAXE));
             e.register(new ShovelItem(ItemsTiers.COPPER, 1.5f, -3.0f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.COPPER_SHOVEL));
             e.register(new SwordItem(ItemsTiers.COPPER, 3, -2.4f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.COPPER_SWORD));
 
             e.register(new AxeItem(ItemsTiers.ALUMINIUM, 6.5f, -3.15f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.ALUMINIUM_AXE));
-            e.register(new HoeItem(ItemsTiers.ALUMINIUM, -1.5f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.ALUMINIUM_HOE));
+            e.register(new CustomHoeItem(ItemsTiers.ALUMINIUM, -1, -1.5f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.ALUMINIUM_HOE));
             e.register(new PickaxeItem(ItemsTiers.ALUMINIUM, 1, -2.8f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.ALUMINIUM_PICKAXE));
             e.register(new ShovelItem(ItemsTiers.ALUMINIUM, 1.5f, -3.0f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.ALUMINIUM_SHOVEL));
             e.register(new SwordItem(ItemsTiers.ALUMINIUM, 3, -2.4f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.ALUMINIUM_SWORD));

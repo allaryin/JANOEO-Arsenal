@@ -9,8 +9,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.*;
 import net.minecraft.item.Item;
+import net.minecraft.tags.ITag;
 import net.minecraft.tags.Tag;
-import net.minecraft.util.IItemProvider;
 import net.minecraftforge.common.Tags;
 
 import java.util.Arrays;
@@ -148,7 +148,7 @@ public class Recipes extends RecipeProvider {
 
 
     private void armors(Consumer<IFinishedRecipe> consumer) {
-        Map<Pair<String, Tag<Item>>, List<Pair<Item, List<String>>>> listOfArmor = new HashMap<>();
+        Map<Pair<String, ITag.INamedTag<Item>>, List<Pair<Item, List<String>>>> listOfArmor = new HashMap<>();
         listOfArmor.put(new Pair<>("has_copper_ingot", ItemsTags.Ingots.COPPER), Arrays.asList(
                 new Pair<>(Armors.COPPER_HELMET, Arrays.asList("III", "I I")),
                 new Pair<>(Armors.COPPER_CHESTPLATE, Arrays.asList("I I", "III", "III")),

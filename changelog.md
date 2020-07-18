@@ -1,3 +1,8 @@
+### 2.0.1
++ port to Minecraft 1.16.1
++ known problem
+    + Armor and tools can't be repaired via other mod
+
 ### 2.0
 + optimized entity falling event (damage reduction with wool boots)
 + add new tools

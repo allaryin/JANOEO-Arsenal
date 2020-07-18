@@ -15,14 +15,14 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "com.wynprice.cursemaven"
 
-version = '2.0'
+version = '2.0.1'
 group = 'fr.alasdiablo.janoeo.arsenal'
 archivesBaseName = 'Janoeo-Arsenal'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
 
 minecraft {
-    mappings channel: 'snapshot', version: '20200613-1.15.1'
+    mappings channel: 'snapshot', version: '20200514-1.16'
     runs {
         client {
             workingDirectory project.file('run')
@@ -34,7 +34,6 @@ minecraft {
                 }
             }
         }
-
         server {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
@@ -45,7 +44,6 @@ minecraft {
                 }
             }
         }
-
         data {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
@@ -61,8 +59,8 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.15.2-31.2.0'
-    compile fg.deobf('curse.maven:jenoeo:2964713')
+    minecraft 'net.minecraftforge:forge:1.16.1-32.0.66'
+    compile fg.deobf('curse.maven:jenoeo:3002893')
 }
 
 jar {
@@ -78,7 +76,9 @@ jar {
         ])
     }
 }
+
 jar.finalizedBy('reobfJar')
+
 publishing {
     publications {
         mavenJava(MavenPublication) {

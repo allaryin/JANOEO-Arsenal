@@ -1,3 +1,7 @@
+### 4.2.0.43-experimental
++ add compatibility with Janoeo 4.4.0.42-experimental
++ internal code rework
+
 ### 2.0.1
 + port to Minecraft 1.16.1
 + known problem

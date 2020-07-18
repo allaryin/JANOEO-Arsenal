@@ -15,7 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "com.wynprice.cursemaven"
 
-version = '2.0.1'
+version = '4.2.0.43-experimental'
 group = 'fr.alasdiablo.janoeo.arsenal'
 archivesBaseName = 'Janoeo-Arsenal'
 
@@ -60,7 +60,7 @@ minecraft {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.1-32.0.66'
-    compile fg.deobf('curse.maven:jenoeo:3002893')
+    compile fg.deobf('curse.maven:jenoeo:3008143')
 }
 
 jar {

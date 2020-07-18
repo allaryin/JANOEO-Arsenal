@@ -1,8 +1,8 @@
 package fr.alasdiablo.janoeo.arsenal.data;
 
-import fr.alasdiablo.janoeo.arsenal.init.Armors;
-import fr.alasdiablo.janoeo.arsenal.init.Tools;
-import fr.alasdiablo.janoeo.arsenal.init.WoolsArmors;
+import fr.alasdiablo.janoeo.arsenal.item.Armors;
+import fr.alasdiablo.janoeo.arsenal.item.Tools;
+import fr.alasdiablo.janoeo.arsenal.item.WoolsArmors;
 import fr.alasdiablo.janoeo.tags.ItemsTags;
 import javafx.util.Pair;
 import net.minecraft.block.Block;
@@ -10,7 +10,6 @@ import net.minecraft.block.Blocks;
 import net.minecraft.data.*;
 import net.minecraft.item.Item;
 import net.minecraft.tags.ITag;
-import net.minecraft.tags.Tag;
 import net.minecraftforge.common.Tags;
 
 import java.util.Arrays;

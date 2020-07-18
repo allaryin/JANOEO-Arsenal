@@ -1,9 +1,9 @@
-package fr.alasdiablo.janoeo.arsenal.utils;
+package fr.alasdiablo.janoeo.arsenal.util;
 
 import fr.alasdiablo.janoeo.arsenal.event.IInitEvent;
 import fr.alasdiablo.janoeo.arsenal.event.WoolArmorEvent;
-import fr.alasdiablo.janoeo.arsenal.init.Tools;
-import fr.alasdiablo.janoeo.arsenal.init.WoolsArmors;
+import fr.alasdiablo.janoeo.arsenal.item.Tools;
+import fr.alasdiablo.janoeo.arsenal.item.WoolsArmors;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 

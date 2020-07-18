@@ -1,7 +1,6 @@
-package fr.alasdiablo.janoeo.arsenal.utils;
+package fr.alasdiablo.janoeo.arsenal.util;
 
 import net.minecraft.block.Blocks;
-import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 
 /**

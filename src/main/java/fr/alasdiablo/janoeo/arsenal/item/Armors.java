@@ -1,8 +1,8 @@
-package fr.alasdiablo.janoeo.arsenal.init;
+package fr.alasdiablo.janoeo.arsenal.item;
 
 import fr.alasdiablo.janoeo.arsenal.Arsenal;
-import fr.alasdiablo.janoeo.arsenal.utils.ArmorsMaterials;
-import fr.alasdiablo.janoeo.arsenal.utils.Registries;
+import fr.alasdiablo.janoeo.arsenal.util.ArmorsMaterials;
+import fr.alasdiablo.janoeo.arsenal.util.Registries;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;

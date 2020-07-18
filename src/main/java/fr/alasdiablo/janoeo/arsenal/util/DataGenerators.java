@@ -1,4 +1,4 @@
-package fr.alasdiablo.janoeo.arsenal.utils;
+package fr.alasdiablo.janoeo.arsenal.util;
 
 import fr.alasdiablo.janoeo.arsenal.data.Recipes;
 import net.minecraft.data.DataGenerator;

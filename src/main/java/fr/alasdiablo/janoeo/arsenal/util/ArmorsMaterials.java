@@ -1,7 +1,6 @@
-package fr.alasdiablo.janoeo.arsenal.utils;
+package fr.alasdiablo.janoeo.arsenal.util;
 
-import fr.alasdiablo.janoeo.ingots.IngotsItems;
-import fr.alasdiablo.janoeo.tags.ItemsTags;
+import fr.alasdiablo.janoeo.item.IngotsItems;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ItemStack;

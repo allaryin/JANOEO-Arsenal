@@ -1,10 +1,9 @@
 package fr.alasdiablo.janoeo.arsenal.event;
 
-import fr.alasdiablo.janoeo.arsenal.init.WoolsArmors;
+import fr.alasdiablo.janoeo.arsenal.item.WoolsArmors;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.LivingFallEvent;

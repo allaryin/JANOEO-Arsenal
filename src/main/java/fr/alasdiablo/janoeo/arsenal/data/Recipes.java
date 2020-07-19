@@ -48,8 +48,8 @@ public class Recipes extends RecipeProvider {
                 .patternLine("CC")
                 .patternLine("CS")
                 .patternLine(" S")
-                .addCriterion("has_copper", this.hasItem(ItemsTags.Ingots.COPPER))
-                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .addCriterion("has_copper", hasItem(ItemsTags.Ingots.COPPER))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
                 .build(consumer);
 
         ShapedRecipeBuilder.shapedRecipe(Tools.COPPER_HOE)
@@ -58,8 +58,8 @@ public class Recipes extends RecipeProvider {
                 .patternLine("CC")
                 .patternLine(" S")
                 .patternLine(" S")
-                .addCriterion("has_copper", this.hasItem(ItemsTags.Ingots.COPPER))
-                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .addCriterion("has_copper", hasItem(ItemsTags.Ingots.COPPER))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
                 .build(consumer);
 
         ShapedRecipeBuilder.shapedRecipe(Tools.COPPER_PICKAXE)
@@ -68,8 +68,8 @@ public class Recipes extends RecipeProvider {
                 .patternLine("CCC")
                 .patternLine(" S ")
                 .patternLine(" S ")
-                .addCriterion("has_copper", this.hasItem(ItemsTags.Ingots.COPPER))
-                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .addCriterion("has_copper", hasItem(ItemsTags.Ingots.COPPER))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
                 .build(consumer);
 
         ShapedRecipeBuilder.shapedRecipe(Tools.COPPER_SHOVEL)
@@ -78,8 +78,8 @@ public class Recipes extends RecipeProvider {
                 .patternLine("C")
                 .patternLine("S")
                 .patternLine("S")
-                .addCriterion("has_copper", this.hasItem(ItemsTags.Ingots.COPPER))
-                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .addCriterion("has_copper", hasItem(ItemsTags.Ingots.COPPER))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
                 .build(consumer);
 
         ShapedRecipeBuilder.shapedRecipe(Tools.COPPER_SWORD)
@@ -88,8 +88,8 @@ public class Recipes extends RecipeProvider {
                 .patternLine("C")
                 .patternLine("C")
                 .patternLine("S")
-                .addCriterion("has_copper", this.hasItem(ItemsTags.Ingots.COPPER))
-                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .addCriterion("has_copper", hasItem(ItemsTags.Ingots.COPPER))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
                 .build(consumer);
 
 
@@ -100,8 +100,8 @@ public class Recipes extends RecipeProvider {
                 .patternLine("AA")
                 .patternLine("AS")
                 .patternLine(" S")
-                .addCriterion("has_aluminium", this.hasItem(ItemsTags.Ingots.ALUMINIUM))
-                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .addCriterion("has_aluminium", hasItem(ItemsTags.Ingots.ALUMINIUM))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
                 .build(consumer);
 
         ShapedRecipeBuilder.shapedRecipe(Tools.ALUMINIUM_HOE)
@@ -110,8 +110,8 @@ public class Recipes extends RecipeProvider {
                 .patternLine("AA")
                 .patternLine(" S")
                 .patternLine(" S")
-                .addCriterion("has_aluminium", this.hasItem(ItemsTags.Ingots.ALUMINIUM))
-                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .addCriterion("has_aluminium", hasItem(ItemsTags.Ingots.ALUMINIUM))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
                 .build(consumer);
 
         ShapedRecipeBuilder.shapedRecipe(Tools.ALUMINIUM_PICKAXE)
@@ -120,8 +120,8 @@ public class Recipes extends RecipeProvider {
                 .patternLine("AAA")
                 .patternLine(" S ")
                 .patternLine(" S ")
-                .addCriterion("has_aluminium", this.hasItem(ItemsTags.Ingots.ALUMINIUM))
-                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .addCriterion("has_aluminium", hasItem(ItemsTags.Ingots.ALUMINIUM))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
                 .build(consumer);
 
         ShapedRecipeBuilder.shapedRecipe(Tools.ALUMINIUM_SHOVEL)
@@ -130,8 +130,8 @@ public class Recipes extends RecipeProvider {
                 .patternLine("A")
                 .patternLine("S")
                 .patternLine("S")
-                .addCriterion("has_aluminium", this.hasItem(ItemsTags.Ingots.ALUMINIUM))
-                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .addCriterion("has_aluminium", hasItem(ItemsTags.Ingots.ALUMINIUM))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
                 .build(consumer);
 
         ShapedRecipeBuilder.shapedRecipe(Tools.ALUMINIUM_SWORD)
@@ -140,8 +140,58 @@ public class Recipes extends RecipeProvider {
                 .patternLine("C")
                 .patternLine("C")
                 .patternLine("S")
-                .addCriterion("has_aluminium", this.hasItem(ItemsTags.Ingots.ALUMINIUM))
-                .addCriterion("has_stick", this.hasItem(Tags.Items.RODS_WOODEN))
+                .addCriterion("has_aluminium", hasItem(ItemsTags.Ingots.ALUMINIUM))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.TIN_AXE)
+                .key('A', ItemsTags.Ingots.TIN)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("AA")
+                .patternLine("AS")
+                .patternLine(" S")
+                .addCriterion("has_tin", hasItem(ItemsTags.Ingots.TIN))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.TIN_HOE)
+                .key('A', ItemsTags.Ingots.TIN)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("AA")
+                .patternLine(" S")
+                .patternLine(" S")
+                .addCriterion("has_tin", hasItem(ItemsTags.Ingots.TIN))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.TIN_PICKAXE)
+                .key('A', ItemsTags.Ingots.TIN)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("AAA")
+                .patternLine(" S ")
+                .patternLine(" S ")
+                .addCriterion("has_tin", hasItem(ItemsTags.Ingots.TIN))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.TIN_SHOVEL)
+                .key('A', ItemsTags.Ingots.TIN)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("A")
+                .patternLine("S")
+                .patternLine("S")
+                .addCriterion("has_tin", hasItem(ItemsTags.Ingots.TIN))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
+                .build(consumer);
+
+        ShapedRecipeBuilder.shapedRecipe(Tools.TIN_SWORD)
+                .key('C', ItemsTags.Ingots.TIN)
+                .key('S', Tags.Items.RODS_WOODEN)
+                .patternLine("C")
+                .patternLine("C")
+                .patternLine("S")
+                .addCriterion("has_tin", hasItem(ItemsTags.Ingots.TIN))
+                .addCriterion("has_stick", hasItem(Tags.Items.RODS_WOODEN))
                 .build(consumer);
     }
 
@@ -187,7 +237,7 @@ public class Recipes extends RecipeProvider {
         listOfArmor.forEach((key, values) -> values.forEach(element -> {
             ShapedRecipeBuilder recipe = ShapedRecipeBuilder.shapedRecipe(element.getKey()).key('I', key.getValue());
             element.getValue().forEach(recipe::patternLine);
-            recipe.addCriterion(key.getKey(), this.hasItem(key.getValue())).build(consumer);
+            recipe.addCriterion(key.getKey(), hasItem(key.getValue())).build(consumer);
         }));
     }
 
@@ -292,7 +342,7 @@ public class Recipes extends RecipeProvider {
         listOfArmor.forEach((key, values) -> values.forEach(element -> {
             ShapedRecipeBuilder recipe = ShapedRecipeBuilder.shapedRecipe(element.getKey()).key('W', key.getValue());
             element.getValue().forEach(recipe::patternLine);
-            recipe.addCriterion(key.getKey(), this.hasItem(key.getValue())).build(consumer);
+            recipe.addCriterion(key.getKey(), hasItem(key.getValue())).build(consumer);
         }));
     }
 }

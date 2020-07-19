@@ -1,3 +1,6 @@
+### 4.2.1.44-experimental
++ add tin tools
+
 ### 4.2.0.43-experimental
 + add compatibility with Janoeo 4.4.0.42-experimental
 + internal code rework

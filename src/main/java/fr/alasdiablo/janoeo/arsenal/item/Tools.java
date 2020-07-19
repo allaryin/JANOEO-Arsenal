@@ -35,6 +35,17 @@ public class Tools {
     @ObjectHolder(Registries.MOD_ID + ":" + Registries.ALUMINIUM_SWORD)
     public static Item ALUMINIUM_SWORD;
 
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.TIN_AXE)
+    public static Item TIN_AXE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.TIN_HOE)
+    public static Item TIN_HOE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.TIN_PICKAXE)
+    public static Item TIN_PICKAXE;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.TIN_SHOVEL)
+    public static Item TIN_SHOVEL;
+    @ObjectHolder(Registries.MOD_ID + ":" + Registries.TIN_SWORD)
+    public static Item TIN_SWORD;
+
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
         @SubscribeEvent
@@ -53,6 +64,11 @@ public class Tools {
             e.register(new ShovelItem(ItemsTiers.ALUMINIUM, 1.5f, -3.0f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.ALUMINIUM_SHOVEL));
             e.register(new SwordItem(ItemsTiers.ALUMINIUM, 3, -2.4f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.ALUMINIUM_SWORD));
 
+            e.register(new AxeItem(ItemsTiers.TIN, 6.5f, -3.15f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.TIN_AXE));
+            e.register(new HoeItem(ItemsTiers.TIN, -1, -1.5f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.TIN_HOE));
+            e.register(new PickaxeItem(ItemsTiers.TIN, 1, -2.8f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.TIN_PICKAXE));
+            e.register(new ShovelItem(ItemsTiers.TIN, 1.5f, -3.0f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.TIN_SHOVEL));
+            e.register(new SwordItem(ItemsTiers.TIN, 3, -2.4f, new Item.Properties().group(Arsenal.setup.janoeoToolGroup)).setRegistryName(Registries.TIN_SWORD));
         }
     }
 }

@@ -23,6 +23,6 @@ Just Another Nether/Overworld/End Ores - Arsenal by AlasDiablo, lIotaMiu, Egame2
 [[dependencies.janoeo_arsenal]]
     modId="janoeo"
     mandatory=true
-    versionRange="[3.6,)"
-    ordering="NONE"
+    versionRange="[4.4,)"
+    ordering="AFTER"
     side="BOTH"

@@ -1,7 +1,7 @@
 package fr.alasdiablo.janoeo.arsenal;
 
-import fr.alasdiablo.janoeo.arsenal.utils.Registries;
-import fr.alasdiablo.janoeo.arsenal.utils.ModSetup;
+import fr.alasdiablo.janoeo.arsenal.util.Registries;
+import fr.alasdiablo.janoeo.arsenal.util.ModSetup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AS",
+    " S"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/tin"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "janoeo_arsenal:tin_axe"
+  }
+}

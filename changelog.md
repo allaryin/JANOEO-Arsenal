@@ -1,3 +1,18 @@
+### 4.2.1.50-experimental
++ back port to 1.15
+
+### 4.2.1.44-experimental
++ add tin tools
+
+### 4.2.0.43-experimental
++ add compatibility with Janoeo 4.4.0.42-experimental
++ internal code rework
+
+### 2.0.1
++ port to Minecraft 1.16.1
++ known problem
+    + Armor and tools can't be repaired via other mod
+
 ### 2.0
 + optimized entity falling event (damage reduction with wool boots)
 + add new tools

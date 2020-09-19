@@ -98,5 +98,10 @@
   "item.janoeo_arsenal.copper_axe": "Copper Axe",
   "item.janoeo_arsenal.copper_shovel": "Copper Shovel",
   "item.janoeo_arsenal.copper_sword": "Copper Sword",
-  "item.janoeo_arsenal.copper_pickaxe": "Copper Pickaxe"
+  "item.janoeo_arsenal.copper_pickaxe": "Copper Pickaxe",
+  "item.janoeo_arsenal.tin_hoe": "Tin Hoe",
+  "item.janoeo_arsenal.tin_axe": "Tin Axe",
+  "item.janoeo_arsenal.tin_shovel": "Tin Shovel",
+  "item.janoeo_arsenal.tin_sword": "Tin Sword",
+  "item.janoeo_arsenal.tin_pickaxe": "Tin Pickaxe"
 }

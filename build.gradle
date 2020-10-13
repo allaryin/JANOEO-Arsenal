@@ -4,6 +4,7 @@ buildscript {
         maven { url = 'https://plugins.gradle.org/m2/' }
         jcenter()
         mavenCentral()
+        flatDir { dirs 'lib' }
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
@@ -15,7 +16,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "com.wynprice.cursemaven"
 
-version = '4.2.1.44-experimental'
+version = '4.2.1.45-experimental'
 group = 'fr.alasdiablo.janoeo.arsenal'
 archivesBaseName = 'Janoeo-Arsenal'
 
@@ -59,8 +60,9 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.1-32.0.66'
-    compile fg.deobf('curse.maven:jenoeo:3008143')
+    minecraft 'net.minecraftforge:forge:1.16.3-34.1.0'
+    //compile fg.deobf('curse.maven:jenoeo:3008143')
+    compileOnly fileTree(dir:'lib', include:'*.jar')
 }
 
 jar {
